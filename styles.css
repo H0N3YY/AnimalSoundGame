@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+body {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#game-title {
+  font-size: 4rem;
+  margin-bottom: 1%;
+}
+
+#level-title {
+  font-size: 3rem;
+  margin: 5%;
+  margin-top: 2%;
+  padding: 2%;
+  color: #000000;
+  border: 5px solid black;
+  border-radius: 20px;
+  background-color: #ffffffe6;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 20px;
+  display: inline-block;
+  height: 120px;
+  width: 120px;
+  border: 5px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.lemon {
+  background-color: rgb(154, 255, 71);
+}
+
+.purple {
+  background-color: rgb(118, 28, 151);
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.orange {
+  background-color: rgb(255, 136, 0);
+}
+
+.pink {
+  background-color: rgb(255, 63, 194);
+  border-radius: 20%;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+
+.photo {
+  padding: 10px;
+  height: 100px;
+  width: 100px;
+}
